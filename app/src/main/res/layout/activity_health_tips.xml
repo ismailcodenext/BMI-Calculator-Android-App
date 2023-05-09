@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HealthTips"
+    android:orientation="vertical"
+    android:background="@drawable/two_color">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imgHealth"
+                android:layout_width="350dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:background="@drawable/health_tips"
+                ></ImageView>
+
+
+            <TextView
+                android:id="@+id/tvHead"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#FF0F5F"
+                android:padding="5dp"
+                android:text="লো ফ্যাট ডায়েট অনুসরণ করা বা অতিরিক্ত ব্যায়াম করাই ওজন কমানোর জন্য সেরা উপায় নয়। বিশেষজ্ঞরা বলছেন ওজন কমাতে হয় স্বাস্থ্যকর উপায়ে। কীভাবে পাবেন দৈহিক উচ্চতা অনুসারে ওজন? রইল বিশেষজ্ঞের টিপস।"
+                android:textColor="#ffff"
+                android:textSize="20sp"></TextView>
+
+
+            <LinearLayout
+                android:id="@+id/layout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#FF80AB"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="খাদ্যগ্রহণের সময় :"
+                    android:textColor="#000"
+                    android:textSize="20sp"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="1.খাবার খাওয়ার জন্য সঠিক সময় বাছুন। অর্থাৎ অনেক বেলায় ব্রেকফাস্ট করা বা বিকেলবেলায় লাঞ্চ করলে চলবে না। আর হ্যাঁ একবারে প্রচুর পরিমাণে খাবারের পরিবর্তে বারবার অল্প অল্প করে খাবার খান। তাতে বিপাকক্রিয়ার উন্নতি হয়। স্বাস্থ্যও ভালো থাকে।"
+                    android:textColor="#000"
+                    android:textSize="16sp"></TextView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#FF80AB"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="টক ফল খান :"
+                    android:textColor="#000"
+                    android:textSize="20sp"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="2. শরীরকে ডিটক্স করতে টক ফল খেতে পারেন। ডায়েটে বেশি পরিমানে টক ফল অন্তর্ভুক্ত করার চেষ্টা করুন। টক ফলের মধ্যে কমলা, আঙ্গুর, লেবু ইত্যাদি খেতে পারেন। "
+                    android:textColor="#000"
+                    android:textSize="16sp"></TextView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#FF80AB"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="শরীর হাইড্রেটেড রাখুন :"
+                    android:textColor="#000"
+                    android:textSize="20sp"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="3.সারাদিন বেশি করে জল পান করা উচিত। এটি শরীরকে হাইড্রেটেড রাখে। পাশাপাশি এটি শরীরকে অনেক রোগ থেকেও রক্ষা করে। শরীরে উপস্থিত টক্সিন দূর করতে অবশ্যই বেশি করে জল খেতে পারেন। "
+                    android:textColor="#000"
+                    android:textSize="16sp"></TextView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#FF80AB"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="ব্যায়াম :"
+                    android:textColor="#000"
+                    android:textSize="20sp"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="4.শরীরকে সুস্থ রাখার ক্ষেত্রে ব্যায়াম খুবই কার্যকরী। শরীরকে স্বাভাবিকভাবে ডিটক্স করার জন্য ব্যায়াম করা খুবই গুরুত্বপূর্ণ। হালকা ব্যায়ামের সাহায্যে শরীরকে ফিট রাখা যায়। রিল্যাক্সেশানের জন্য, আপনি প্রথমে ৩০ মিনিট দিয়ে শুরু করতে পারেন। তারপর ধীরে ধীরে সময় বাড়ানোর চেষ্টা করতে পারেন। শরীরকে ফিট ও ডিটক্স করার সবচেয়ে ভাল উপায় হল ব্যায়াম।"
+                    android:textColor="#000"
+                    android:textSize="16sp"></TextView>
+
+
+            </LinearLayout>
+
+            -----------
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

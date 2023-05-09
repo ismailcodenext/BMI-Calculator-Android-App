@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            ///---------------------------------
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BMI Calculator and Health Tips"
+                android:textSize="25sp"
+                android:textColor="#000"
+                android:gravity="center"
+                android:padding="10dp"
+                android:background="@drawable/two_color_curved"
+                android:layout_margin="10dp"
+                ></TextView>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="220dp"
+                android:layout_gravity="center"
+                android:background="@drawable/bmi"
+                ></ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="আপানার ওজন?"
+                android:layout_margin="15dp"
+                android:textColor="#000"
+                ></TextView>
+            <EditText
+                android:id="@+id/edWeight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColorHint="#000"
+                android:textColor="#000"
+                android:hint="KG"
+                android:layout_margin="15dp"
+                android:inputType="numberDecimal"
+                ></EditText>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="আপানার উচ্চতা?"
+                android:layout_margin="15dp"
+                android:textColor="#000"
+                ></TextView>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <EditText
+                    android:id="@+id/edHeightFit"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textColor="#000"
+                    android:layout_margin="15dp"
+                    android:hint="Fit"
+                    android:textColorHint="#000"
+                    android:inputType="numberDecimal"
+                    ></EditText>
+
+                <EditText
+                    android:id="@+id/edHeightInch"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textColor="#000"
+                    android:hint="Inch"
+                    android:textColorHint="#000"
+                    android:layout_margin="15dp"
+                    android:inputType="numberDecimal"
+                    ></EditText>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/resultBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:textSize="20sp"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:backgroundTint="@android:color/holo_orange_dark"
+                ></Button>
+
+
+            ////---------------------------------
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>
